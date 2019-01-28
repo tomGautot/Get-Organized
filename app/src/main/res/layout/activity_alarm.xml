@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_height="match_parent" android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/sun_icon"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/ic_wake_up"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="20dp"/>
+
+    <TextView
+        android:id="@+id/wake_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wakey, Wakey"
+        android:layout_below="@+id/sun_icon"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="25dp"
+        android:textSize="35sp"
+        android:textColor="@color/colorBlack"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/alarm_motivational_quote_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/motivational_quote_7"
+        android:layout_below="@+id/wake_tv"
+        android:textColor="@color/colorBlack"
+        android:textStyle="italic"
+        android:textSize="18sp"
+        android:padding="28dp"
+        android:layout_centerVertical="true"
+        />
+
+    <Button
+        android:textColor="@color/colorBlack"
+        android:text="@string/snooze_button_text"
+        android:visibility="gone"
+        android:id="@+id/snooze_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_button_cyan"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="100dp"
+        android:textColorHint="@color/colorWhite"/>
+
+
+
+    <LinearLayout
+        android:id="@+id/equation_layout"
+        android:visibility="gone"
+        android:paddingBottom="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/equation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorBlack"
+            android:textStyle="bold"
+            android:paddingBottom="12dp"
+            android:layout_gravity="center_horizontal"
+            android:text="76-24+31"
+            android:textSize="16sp"/>
+
+        <EditText
+            android:id="@+id/user_answer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/your_answer"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"/>
+
+        <ImageButton
+            android:id="@+id/check_answer"
+            android:paddingTop="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/ic_check_button"
+            android:background="@color/colorTransparent"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent" android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/colorVeryLightGrey"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/task_title_et"
+            style="@style/dimen_add_task_layout"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:gravity="center"
+            android:hint="@string/description_of_the_task"
+            android:inputType="text"
+            android:textColor="@color/colorBlack"
+            android:textColorHighlight="@color/colorAccent" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/dimen_add_task_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/colorTransparent"
+                android:text="@string/type_of_task"
+                android:textColor="@color/colorBlack"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <Spinner
+                    android:id="@+id/spinner"
+                    style="@style/dimen_add_task_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|center_vertical" />
+
+            </FrameLayout>
+        </LinearLayout>
+
+
+        <!--TIME PICKER-->
+        <LinearLayout
+            style="@style/dimen_add_task_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/time_title"
+                android:textColor="@color/colorBlack"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TimePicker
+                android:id="@+id/time_picker"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:timePickerMode="clock" />
+
+        </LinearLayout>
+
+        <!--BUTTONS FOR DAYS-->
+        <LinearLayout
+            style="@style/dimen_add_task_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/days_case_title"
+                android:textColor="@color/colorBlack"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/monday_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="6dp"
+                    android:background="@drawable/round_button_grey"
+                    android:onClick="changeButtonLook"
+                    android:text="@string/monday_short" />
+
+                <Button
+                    android:id="@+id/tuesday_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="6dp"
+                    android:layout_toEndOf="@+id/monday_button"
+                    android:background="@drawable/round_button_grey"
+                    android:onClick="changeButtonLook"
+                    android:text="@string/tuesday_short" />
+
+                <Button
+                    android:id="@+id/wednesday_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="6dp"
+                    android:layout_toRightOf="@+id/tuesday_button"
+                    android:background="@drawable/round_button_grey"
+                    android:onClick="changeButtonLook"
+                    android:text="@string/wednesday_short" />
+
+                <Button
+                    android:id="@+id/thursday_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/monday_button"
+                    android:layout_margin="6dp"
+                    android:background="@drawable/round_button_grey"
+                    android:onClick="changeButtonLook"
+                    android:text="@string/thursday_short" />
+
+                <Button
+                    android:id="@+id/friday_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/monday_button"
+                    android:layout_margin="6dp"
+                    android:layout_toRightOf="@+id/monday_button"
+                    android:background="@drawable/round_button_grey"
+                    android:onClick="changeButtonLook"
+                    android:text="@string/friday_short" />
+
+                <Button
+                    android:id="@+id/saturday_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/wednesday_button"
+                    android:layout_margin="6dp"
+                    android:layout_toRightOf="@+id/friday_button"
+                    android:background="@drawable/round_button_grey"
+                    android:onClick="changeButtonLook"
+                    android:text="@string/saturday_short" />
+
+                <Button
+                    android:id="@+id/sunday_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/friday_button"
+                    android:layout_margin="6dp"
+                    android:layout_toRightOf="@+id/monday_button"
+                    android:background="@drawable/round_button_grey"
+                    android:onClick="changeButtonLook"
+                    android:text="@string/sunday_short" />
+
+
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/dimen_add_task_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/send_notification_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/send_a_notification"
+                android:textStyle="bold"
+                android:textColor="@color/colorBlack"
+                android:textSize="20sp"/>
+
+            <Switch
+                android:id="@+id/notification_switch"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:layout_gravity="center_vertical"/>
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/dimen_add_task_layout"
+            android:paddingRight="0dp"
+            android:background="@color/colorTransparent"
+            android:id="@+id/ringtone_option_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/ringtone_tv"
+                android:background="@color/colorTransparent"
+                android:layout_width="0dp"
+                android:layout_weight="6"
+                android:layout_height="wrap_content"
+                android:text="@string/ringtone"
+                android:textColor="@color/colorBlack"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_gravity="center_vertical"
+                />
+
+
+            <ImageButton
+                android:id="@+id/play_pause_ringtone_buttone"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="36dp"
+                android:src="@drawable/play_pause_button"
+                android:scaleType="centerCrop"
+                android:layout_gravity="center_vertical"
+                android:background="@color/colorTransparent"
+                android:paddingRight="4dp"
+                android:paddingLeft="4dp"/>
+
+            <Spinner
+                android:id="@+id/spinner_ringtone"
+                style="@style/dimen_add_task_layout"
+                android:layout_width="0dp"
+                android:layout_weight="8"
+                android:layout_gravity="right|center_vertical"
+                android:layout_height="wrap_content"/>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/dimen_add_task_layout"
+            android:paddingRight="0dp"
+            android:paddingTop="0dp"
+            android:background="@color/colorTransparent"
+            android:id="@+id/aot_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/aot_tv"
+                android:background="@color/colorTransparent"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="@string/how_to_set_the_alarm_off"
+                android:textColor="@color/colorBlack"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/spinner_alarm_off_type"
+                style="@style/dimen_add_task_layout"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_gravity="right|center_vertical"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/save_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_button_cyan"
+            android:text="@string/save"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold"
+            android:layout_marginBottom="12dp"/>
+
+
+    </LinearLayout>
+</ScrollView>
+

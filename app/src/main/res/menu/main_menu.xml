@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/om_about_app_id"
+        android:title="@string/about_app_str"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/om_credits_id"
+        android:title="@string/om_credits_str"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/om_advices_id"
+        android:title="@string/om_advices_str"
+        app:showAsAction="never"
+        />
+
+
+    <item
+        android:id="@+id/om_help_id"
+        android:title="@string/om_help_str"
+        app:showAsAction="never"
+        />
+</menu>

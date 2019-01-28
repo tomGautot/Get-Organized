@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:animateLayoutChanges="true"
+    android:background="@color/colorWhite"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <View
+        style="@style/Divider"
+        />
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingRight="12dp">
+
+            <TextView
+                android:id="@+id/todo_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorBlack"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:paddingTop="12dp"
+                android:paddingBottom="12dp"
+                android:paddingLeft="18dp"
+                android:text="Add connectivity feature"/>
+
+            <TextView
+                android:id="@+id/todo_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Use the brand new android class that was made just for that purpice and dont forget to take lag into acount as well as server latency"
+                android:textColor="@color/colorDarkGrey"
+                android:paddingLeft="18dp"
+                android:paddingTop="0dp"
+                android:paddingBottom="8dp"
+                android:visibility="gone"/>
+
+            <TextView
+                android:id="@+id/todo_done_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/todo_done"
+                android:paddingLeft="18dp"
+                android:paddingBottom="12dp"
+                android:textColor="@color/colorAccent"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:visibility="gone"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/todo_priority"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:background="@drawable/priority_circle"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginTop="10dp"/>
+
+    </LinearLayout>
+</LinearLayout>

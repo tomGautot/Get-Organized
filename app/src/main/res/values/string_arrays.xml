@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="task_type_options">
+        <item>@string/task_type_wake_up</item>
+        <item>@string/task_type_work</item>
+        <item>@string/task_type_sport</item>
+        <item>@string/task_type_family</item>
+        <item>@string/task_type_shopping</item>
+        <item>@string/task_type_social</item>
+        <item>@string/task_type_sleep</item>
+        <item>@string/task_type_other</item>
+    </string-array>
+
+    <string-array name="context_menu_actions">
+        <item>@string/cm_option_edit</item>
+        <item>@string/cm_option_delete_for_this_day</item>
+        <item>@string/cm_option_delete_for_everyday</item>
+        <item>@string/cm_option_edit_todos</item>
+    </string-array>
+
+    <string-array name="days_long_names">
+        <item>@string/monday_long</item>
+        <item>@string/tuesday_long</item>
+        <item>@string/wednesday_long</item>
+        <item>@string/thursday_long</item>
+        <item>@string/friday_long</item>
+        <item>@string/saturday_long</item>
+        <item>@string/sunday_long</item>
+    </string-array>
+
+    <string-array name="days_short_names">
+        <item>@string/monday_short</item>
+        <item>@string/tuesday_short</item>
+        <item>@string/wednesday_short</item>
+        <item>@string/thursday_short</item>
+        <item>@string/friday_short</item>
+        <item>@string/saturday_short</item>
+        <item>@string/sunday_short</item>
+    </string-array>
+
+    <string-array name="ringtone_options">
+        <item>@string/ringtone_option_very_easy</item>
+        <item>@string/ringtone_option_easy</item>
+        <item>@string/ringtone_option_hard</item>
+        <item>@string/ringtone_option_very_hard</item>
+    </string-array>
+
+    <string-array name="alarmoff_options">
+        <item>@string/aot_button</item>
+        <item>@string/aot_math</item>
+    </string-array>
+
+    <string-array name="motivational_quotes">
+        <item>@string/motivational_quote_1</item>
+        <item>@string/motivational_quote_2</item>
+        <item>@string/motivational_quote_3</item>
+        <item>@string/motivational_quote_4</item>
+        <item>@string/motivational_quote_5</item>
+        <item>@string/motivational_quote_6</item>
+        <item>@string/motivational_quote_7</item>
+        <item>@string/motivational_quote_8</item>
+        <item>@string/motivational_quote_9</item>
+        <item>@string/motivational_quote_10</item>
+        <item>@string/motivational_quote_11</item>
+        <item>@string/motivational_quote_12</item>
+        <item>@string/motivational_quote_13</item>
+        <item>@string/motivational_quote_14</item>
+        <item>@string/motivational_quote_15</item>
+        <item>@string/motivational_quote_16</item>
+        <item>@string/motivational_quote_17</item>
+        <item>@string/motivational_quote_18</item>
+        <item>@string/motivational_quote_19</item>
+        <item>@string/motivational_quote_20</item>
+        <item>@string/motivational_quote_21</item>
+        <item>@string/motivational_quote_22</item>
+        <item>@string/motivational_quote_23</item>
+        <item>@string/motivational_quote_24</item>
+        <item>@string/motivational_quote_25</item>
+        <item>@string/motivational_quote_26</item>
+        <item>@string/motivational_quote_27</item>
+        <item>@string/motivational_quote_28</item>
+        <item>@string/motivational_quote_29</item>
+        <item>@string/motivational_quote_30</item>
+    </string-array>
+
+</resources>

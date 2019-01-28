@@ -1,0 +1,201 @@
+<resources>
+    <string name="app_name">Get Organized</string>
+
+    <string name="empty_recyclerview_text">Your plans for %1$s show up here !</string>
+
+    <string name="task_long_click_hint">Long Click on a task for more options.</string>
+
+    <!--ADD TASK ACTIVITY STRINGS-->
+    <string name="how_to_set_the_alarm_off">How to set the alarm off:</string>
+    <string name="description_of_the_task">Description of the task</string>
+    <string name="type_of_task">Type of Task:</string>
+    <string name="time_title">Time :</string>
+    <string name="days_case_title">Days :</string>
+    <string name="save">SAVE</string>
+
+    <!--TYPES OF TASK-->
+    <string name="task_type_wake_up">Wake Up</string>
+    <string name="task_type_work">Work</string>
+    <string name="task_type_sport">Sport</string>
+    <string name="task_type_sleep">Sleep</string>
+    <string name="task_type_family">Family</string>
+    <string name="task_type_shopping">Shopping</string>
+    <string name="task_type_social">Social</string>
+    <string name="task_type_other">Other</string>
+
+    <!-- LONG DAY NAMES-->
+    <string name="monday_long">Monday</string>
+    <string name="tuesday_long">Tuesday</string>
+    <string name="wednesday_long">Wednesday</string>
+    <string name="thursday_long">Thursday</string>
+    <string name="friday_long">Friday</string>
+    <string name="saturday_long">Saturday</string>
+    <string name="sunday_long">Sunday</string>
+
+    <!--SHORT DAY NAMES-->
+    <string name="monday_short">Mon</string>
+    <string name="tuesday_short">Tue</string>
+    <string name="wednesday_short">Wed</string>
+    <string name="thursday_short">Thu</string>
+    <string name="friday_short">Fri</string>
+    <string name="saturday_short">Sat</string>
+    <string name="sunday_short">Sun</string>
+
+    <!--CONTEXT MENU OPTIONS-->
+    <string name="cm_option_edit">Edit</string>
+    <string name="cm_option_delete_for_this_day">Delete for this day</string>
+    <string name="cm_option_delete_for_everyday">Delete for everyday</string>
+    <string name="cm_option_edit_todos">To-Do\'s</string>
+    <string name="send_a_notification">Send a notification :</string>
+    <string name="send_an_alarm">Send an alarm :</string>
+    <string name="ringtone">Ringtone :</string>
+
+    <!--RINGTONE OPTIONS-->
+    <string name="ringtone_option_very_easy">Very easy to wake up</string>
+    <string name="ringtone_option_easy">Easy to wake up</string>
+    <string name="ringtone_option_hard">Hard to wake up</string>
+    <string name="ringtone_option_very_hard">Very hard to wake up</string>
+
+    <!--ALARMOFF TYPE OPTIONS-->
+    <string name="aot_button">Button</string>
+    <string name="aot_math">Solve Math Problem</string>
+
+    <!--NOTIFICATIONS STRINGS-->
+    <string name="notif_title_sport">Sport time</string>
+    <string name="notif_title_work">Work time</string>
+    <string name="notif_title_sleep">Sleep time</string>
+
+    <string name="motivational_quote_1">"Hard work beats talent when talent doesn’t work hard.” – Tim Notke</string>
+    <string name="motivational_quote_2">“It’s hard to beat a person who never gives up.” – Babe Ruth</string>
+    <string name="motivational_quote_3">“The harder the battle, the sweeter the victory.” – Les Brown</string>
+    <string name="motivational_quote_4">“Never say never because limits, like fears, are often just an illusion.” – Michael Jordan</string>
+    <string name="motivational_quote_5">“You miss 100% of the shots you don’t take.” – Wayne Gretzky</string>
+    <string name="motivational_quote_6">“You have to expect things of yourself before you can do them.” – Michael Jordan</string>
+    <string name="motivational_quote_7">“There may be people that have more talent than you, but there’s no excuse for anyone to work harder than you do.” – Derek Jeter</string>
+    <string name="motivational_quote_8">“If you can’t outplay them, outwork them.” – Ben Hogan</string>
+    <string name="motivational_quote_9">“Most people never run far enough on their first wind to find out they’ve got a second.” – William James</string>
+    <string name="motivational_quote_10">“I’ve failed over and over and over again in my life. And that is why I succeed.” – Michael Jordan</string>
+    <string name="motivational_quote_11">“Nobody who ever gave his best regretted it.” – George Halas</string>
+    <string name="motivational_quote_12">“If you aren’t going all the way, why go at all?” – Joe Namath</string>
+    <string name="motivational_quote_13">“Winners never quit and quitters never win.” – Vince Lombardi</string>
+    <string name="motivational_quote_14">“I’ve learned that something constructive comes from every defeat.” – Tom Landry</string>
+    <string name="motivational_quote_15">“The question isn’t who’s going to let me; it’s who is going to stop me?” —Ayn Rand</string>
+    <string name="motivational_quote_16">“The Way Get Started Is To Quit Talking And Begin Doing.” – Walt Disney</string>
+    <string name="motivational_quote_17">“The Pessimist Sees Difficulty In Every Opportunity. The Optimist Sees Opportunity In Every Difficulty.” – Winston Churchill</string>
+    <string name="motivational_quote_18">“You Learn More From Failure Than From Success. Don’t Let It Stop You. Failure Builds Character.” – Unknown</string>
+    <string name="motivational_quote_19">“If You Are Working On Something That You Really Care About, You Don’t Have To Be Pushed. The Vision Pulls You.” – Steve Jobs</string>
+    <string name="motivational_quote_20">“People Who Are Crazy Enough To Think They Can Change The World, Are The Ones Who Do.” – Rob Siltanen</string>
+    <string name="motivational_quote_21">“What You Lack In Talent Can Be Made Up With Desire, Hustle And Giving 110% All The Time.” – Don Zimmer</string>
+    <string name="motivational_quote_22">“Things Work Out Best For Those Who Make The Best Of How Things Work Out.” – John Wooden</string>
+    <string name="motivational_quote_23">“Today’s Accomplishments Were Yesterday’s Impossibilities.” – Robert H. Schuller</string>
+    <string name="motivational_quote_24">“You Don’t Have To Be Great To Start, But You Have To Start To Be Great.” – Zig Ziglar</string>
+    <string name="motivational_quote_25">“There Are No Limits To What You Can Accomplish, Except The Limits You Place On Your Own Thinking.” – Brian Tracy</string>
+    <string name="motivational_quote_26">“Only I Can Change My Life. No One Can Do It For Me.” - Carol Burnett</string>
+    <string name="motivational_quote_27">“It always seems impossible until it\'s done.” - Nelson Mandela</string>
+    <string name="motivational_quote_28">“You can\'t cross the sea merely by standing and staring at the water.” - Rabindranath Tagore</string>
+    <string name="motivational_quote_29">“Always do your best. What you plant now, you will harvest later.” - Og Mandino</string>
+    <string name="motivational_quote_30">“Excellence is not an act, it is a habit.” - Aristotle</string>
+
+    <!--ALARM ACTIVITY-->
+    <string name="your_answer">Your answer</string>
+    <string name="snooze_button_text">Stop</string>
+
+
+    <string name="empty_recyclerview_todos_text">Your To-Do\'s are shown here !</string>
+
+    <!--TODOS-->
+    <string name="todo_done">DONE</string>
+    <string name="to_do_title_et">To-Do\'s title</string>
+    <string name="todo_description_et">Give a description</string>
+    <string name="priority_add_todo">Priority :</string>
+    <string name="todo_add_prio_high">High</string>
+    <string name="todo_add_prio_med">Medium</string>
+    <string name="todo_add_prio_low">Low</string>
+    <string name="new_todo">New To-Do :</string>
+    <string name="about_app_str">About the app</string>
+
+    <!--OPTION MENU-->
+    <string name="om_credits_str">Credits</string>
+    <string name="om_advices_str">Advices</string>
+    <string name="om_settings_str">Settings</string>
+    <string name="om_help_str">Support me</string>
+
+    <!--ALERT DIALOGS-->
+    <string name="alert_dialog_title">Task Deletion</string>
+    <string name="alert_dialog_delete">Delete </string>
+    <string name="alert_dialog_cancel">Cancel</string>
+    <string name="alert_everyday_dialog_message">Are you sure you want to delete this task, this process is irreversible</string>
+    <string name="alert_oneday_dialog_message">Are you sure you want to delete this task for this day</string>
+    <string name="dont_ask_me_again">Don\'t ask me again</string>
+
+    <!--ABOUT THE APP-->
+    <string name="about_app_title_str">About The App</string>
+    <string name="about_app_description_title">Description :</string>
+    <string name="about_app_descriptio_body">\"Get Organized\" is a simple app made for you to organize your week in the most efficient, convenient and nice looking way. If you have trouble staying organized and productive, this is the app you need.</string>
+    <string name="about_app_features_title">Features :</string>
+    <string name="about_app_features_body_1">The way this app works is by allowing you to divide your day into several tasks and make it look clear for you.</string>
+    <string name="about_app_features_task_annotation">Example of a task</string>
+    <string name="about_app_features_body_2">There are different types of task you can choose from : \"Wake up\", \"Work\", \"Sport\", \"Sleep\" and \"Other\". With each type comes different icons and specific aspects. The above task is of type \"Work\" with which comes a customizable list of To-Do\'s that you can access from the menu that opens when you long-click on a task.</string>
+    <string name="about_app_todo_image_anotation">Example of a list of To-Do\'s</string>
+    <string name="about_app_feature_body_3">A To-Do has a title, a description and a priority. When you first look at your list, you only see your To-Do\'s name and priority (represented by a colorful circle) but you can expand it simply by clicking on it, then revealing the description and a DONE button which you can click to delete the To-Do.</string>
+
+    <string name="advice_work_title">Work :</string>
+    <string name="advice_work_intro">Being Productive is something really important if you want to build a successful career, if you don\'t feel like you are productive enough, here are some simple tricks that you can apply to improve your productivity :</string>
+    <string name="advice_work_1">\t\t\t● Take several small breaks: When you work, every two hours or so, you should take a break of 15 minutes and go outside, take some fresh air, free your mind a bit, this will make working much easier once you go back and will help you solve the problems you are facing.</string>
+    <string name="advice_work_2">\t\t\t● Prevent temptation: If you decide to start working on something, put your phone, or anything that could distract you, away. If you work on a computer there are ad-ons you can download to prevent you from going on time-consuming websites (like StayFocusd on Chrome)</string>
+    <string name="advice_work_3">\t\t\t● If you have a big project that requires weeks or months of work, you have to build a work habit by forcing you to work (that\'s why this app is here). By doing such, when you lack motivation, this habit will \"force\" you to work as you will feel weird if you don\'t follow it. Note that unlike what you see on most websites, the time it takes to build a habit is around 66 days and not 21, so don\'t blame yourself if it doesn\'t come overnight, just persevere.</string>
+    <string name="advice_work_4">\t\t\t● Divide your work: There is nothing more demotivating than not even knowing where to start when you have a huge task to accomplish, so before doing anything, make a plan, this app has a \"To-Do\" functionality that allows you to break your work into smaller pieces and give a priority to each one of them, think about using it as it can be both useful and motivating.</string>
+
+    <string name="advice_sport_title">Sport :</string>
+    <string name="advice_sport_intro">Sport is really important, it helps you keep in shape, and has been shown to increase happiness and to prevent a lot of diseases. Yet many people don\'t workout as much as they would like because they lack motivation and/or they don\'t know how to properly do it. Here are some tips to get over that :</string>
+    <string name="advice_sport_1">\t\t\t● Don\'t over do it: It is a really bad idea to do a lot of sport everyday, especially if you are not used to it. When you put a lot of pressure onto your body, you need to give it some time to recover, and plus, it\'s during these periods that muscles build up so you need those to see improvement in your performances.</string>
+    <string name="advice_sport_2">\t\t\t● Push yourself: if you want to get really good at something that is related to sports, you have to push yourself, it\'s not enough to do it a bit, it needs to hurt, you should feel tired after each session of workout you do, you won\'t improve a lot if you don\'t push your limits. But remember: You should break your limits, not yourself.</string>
+    <string name="advice_sport_3">\t\t\t● Follow a program: There are many apps available that were created for you to follow a workout routine and lots of them are really good, with a lot of explanations. A big advantage that comes from these apps is that they are really motivating, mainly because they often come with something to track your stats, which makes it easier to see your improvement, therefore motivating you to work even more.</string>
+    <string name="advice_sport_4">\t\t\t● Workout with friends: This is by far the best way to get motivated, gather some friends, make a schedule and follow it. It\'s very unlikely that all of you get demotivated at once, which means there will always be someone to motivate the others to come and workout. Plus it may make you enjoy sport if it wasn\'t the case before.</string>
+
+    <string name="advice_sleep_title">Sleep :</string>
+    <string name="advice_sleep_intro">Your quality of life partly comes from your quality of sleep. Yet it is said that 1 in 3 people don\'t get enough sleep. If you are one of these people here are a few simple things you can do that might drastically improve your sleep quality :</string>
+    <string name="advice_sleep_1">\t\t\t● Have a schedule: The first thing you should give attention to is your sleep schedule. It is really important that you go to sleep and wake up at the same time everyday, even during week-ends, this helps to set your body\'s internal clock and will improve your sleep quality.</string>
+    <string name="advice_sleep_2">\t\t\t● Keep screens away: 30 minutes before you go to bed, shut off every video screens you can and move them to a room that is not your bedroom. They have the effect of stimulating your brain which prevents you from being into a calm state of mind for sleep. Recent studies also show that they might suppress the sleep-inducing hormone (melatonin) in the brain.</string>
+    <string name="advice_sleep_3">\t\t\t● Read books: It\'s a really good thing to do as this will exhaust you a bit and therefore will make it easier to fall asleep. But you shouldn\'t read things that require too much thinking as it will have the unwanted effect of stimulating your brain.</string>
+    <string name="advice_sleep_4">\t\t\t● Buy an alarm clock: What prevents many people from sleeping without their phone in their bedroom is that they use it as an alarm clock. An alarm clock costs 20\$ and will help you to both fall asleep and to wake up as you won\'t have the temptation to use it in your bed. It may be one of the best investment you can make if you want to improve your sleep quality.</string>
+    <string name="contact_us">Contact me:</string>
+    <string name="help_us">Support me:</string>
+    <string name="help_main_text">As you may have noticed, there are no ads in this app that you are forced to watch. This was done in order to give you the best user experience. If you want to support me the best things you can do are : Talking about the app (on social network or simply by words of mouth), make a review on Google play or watch an Ad from your own free will. Thanks already if you do any of these.</string>
+    <string name="google_play">Google Play</string>
+    <string name="ad">Ad</string>
+    <string name="credits_page_title">Credits :</string>
+    <string name="code_design">Code/Design :</string>
+    <string name="tom_gautot_credits">\t\t\t● Tom Gautot</string>
+    <string name="icons_credits_title">Icons :</string>
+
+    <string name="string_credit_icon_1">Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></string>
+    <string name="string_credit_icon_2">Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></string>
+    <string name="string_credit_icon_3">Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></string>
+    <string name="string_credit_icon_4">Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></string>
+    <string name="string_credit_icon_5">Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></string>
+    <string name="string_credit_icon_6">Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></string>
+    <string name="string_credit_icon_7">Icons made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></string>
+    <string name="string_credit_icon_8">Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></string>
+    <string name="string_credit_icon_9">Icons made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></string>
+    <string name="string_credit_icon_10">Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></string>
+    <string name="string_credit_icon_11">Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></string>
+    <string name="string_credit_icon_12">Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></string>
+    <string name="string_credit_icon_13">Icons made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></string>
+    <string name="string_credit_icon_14">Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></string>
+    <string name="string_credit_icon_15">Icons made by <a href="https://www.flaticon.com/authors/monkik" title="monkik">monkik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></string>
+    <string name="string_credit_icon_16">Icons made by <a href="https://www.flaticon.com/authors/ddara" title="dDara">dDara</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></string>
+    <string name="string_credit_icon_17">Icons made by <a href="https://www.flaticon.com/authors/srip" title="srip">srip</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></string>
+
+    <string name="e_mail_title">E-Mail :</string>
+    <string name="email_address">tgautot.contact@gmail.com</string>
+    <string name="credits_page_label">Credits</string>
+    <string name="todos_page_label">To-Do\'s</string>
+    <string name="alarm_page_label">Alarm</string>
+    <string name="about_app_page_label">About the App</string>
+    <string name="advices_page_label">Advices</string>
+    <string name="support_me_page_label">Support Me</string>
+    <string name="empty_to_do_list_filler_text">Empty To-Do List Filler</string>
+
+
+</resources>

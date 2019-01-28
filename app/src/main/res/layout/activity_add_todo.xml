@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="match_parent" android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/colorVeryLightGrey">
+
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:animateLayoutChanges="true"
+    android:background="@color/colorVeryLightGrey">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/new_todo"
+        android:textColor="@color/colorBlack"
+        android:textStyle="bold"
+        android:textSize="26sp"
+        android:layout_gravity="center_horizontal"
+        android:visibility="gone"/>
+
+    <EditText
+        android:id="@+id/todo_add_title_et"
+        style="@style/dimen_add_task_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="@string/to_do_title_et"/>
+
+    <EditText
+        android:id="@+id/todo_add_desc_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/dimen_add_task_layout"
+        android:minLines="4"
+        android:hint="@string/todo_description_et"
+        android:gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/dimen_add_task_layout"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/priority_add_todo"
+            android:textSize="24sp"
+            android:textColor="@color/colorBlack"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"/>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="4dp">
+
+            <RadioButton
+                android:id="@+id/todo_add_prio_low_rb"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="@string/todo_add_prio_low"
+                android:onClick="onPrioritySelected"/>
+
+            <RadioButton
+                android:id="@+id/todo_add_prio_med_rb"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="@string/todo_add_prio_med"
+                android:onClick="onPrioritySelected"/>
+
+            <RadioButton
+                android:id="@+id/todo_add_prio_high_rb"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="@string/todo_add_prio_high"
+                android:onClick="onPrioritySelected"/>
+
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/save_todo_button"
+        android:layout_marginTop="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_button_cyan"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/save"/>
+
+</LinearLayout>
+</ScrollView>
